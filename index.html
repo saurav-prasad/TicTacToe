@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <ul>
+            <li style="
+            padding-right: 0px;
+        "> <img id="logo" src="./logo.png" alt=""></li>
+            <li>Tic-Tac-Toe Game</li>
+        </ul>
+    </nav>
+    <!-- Game conatiner -->
+    <div class="hero">
+        <div class="heading">
+            <h1>Welcome to Tic-Tac-Toe Game</h1>
+        </div>
+        <div id="container" class="container">
+            <!-- Line -->
+            <div id="line"></div>
+            <div style="border-top: 0;border-left: 0;" class="box"><span class="boxtext"></span></div>
+            <div style="border-top: 0;" class="box"><span class="boxtext"></span></div>
+            <div style="border-top: 0;border-right: 0;" class="box"><span class="boxtext"></span></div>
+            <div style="border-left: 0;" class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div style="border-right: 0;" class="box"><span class="boxtext"></span></div>
+            <div style="border-bottom: 0;border-left: 0;" class="box"><span class="boxtext"></span></div>
+            <div style="border-bottom: 0;" class="box"><span class="boxtext"></span></div>
+            <div style="border-bottom: 0;border-right: 0;" class="box"><span class="boxtext"></span></div>
+        </div>
+        <div id="turn">Turn for x</div>
+        <div>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
